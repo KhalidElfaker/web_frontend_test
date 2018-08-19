@@ -26,3 +26,114 @@ nav a{
 .nav_right a:hover{
 	border-bottom: 5px red solid;
 }
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.header_container {
+    position: relative;
+    height: 464px;
+    font-family: Arial;
+    background-image: url("../images/chill.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+}
+
+.text-block {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0006;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+section{
+	display: inline-block;
+	margin: 0;
+	width: 66%;
+	text-align: center;
+}
+
+article{
+	display: inline-block;
+	width: 260px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 5px;
+	border: 1px gray solid;
+}
+
+article img{
+	width: 260px;
+}
+.article_title{
+	font-size: 30px;
+}
+aside{
+	display: inline-block;
+	width: 33%;
+	float: right;
+}
+
+.aside_title{
+	margin-top: 10px;
+	font-size: 36px;
+	background-color: #4DB9C1;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.top_article{
+	height: 114px;
+	border: 1px gray solid;
+	vertical-align: middle;
+}
+.top_article img{
+	float: left;
+}
+.top_article_title{
+	font-size: 30px;
+	display: block;
+	margin-left:10px; 
+}
+.top_article p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.top_article > div{
+	display: inline-block;
+}
+
+footer{
+	display: block;
+	background-color: #000;
+	margin-top: 50px
+}
+footer p {
+	color: white;
+	margin: 5px;
+	color: white
+}
+footer p a{
+	color: gray;
+	text-decoration: none;
+}
+footer> p:nth-child(2){
+	display: inline-block;
+	padding-right: 10px;
+	float: right;
+}
+footer> p:nth-child(1){
+	display: inline-block;
+	padding-left: 10px;
+
+}
